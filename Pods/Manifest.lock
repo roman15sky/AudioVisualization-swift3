@@ -1,0 +1,12 @@
+PODS:
+  - SoundWave (0.1.1)
+
+DEPENDENCIES:
+  - SoundWave (~> 0.1)
+
+SPEC CHECKSUMS:
+  SoundWave: ccaf4aac7d56263b871f1bef4c2f84714b73738b
+
+PODFILE CHECKSUM: 5c7fa4a0917989e1e9844403cfcae979d5b18939
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad12_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashbackground" translatesAutoresizingMaskIntoConstraints="NO" id="Xkc-nS-1PF">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashlogo" translatesAutoresizingMaskIntoConstraints="NO" id="ZcQ-q9-iU8">
+                                <rect key="frame" x="266" y="568" width="492" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ZcQ-q9-iU8" secondAttribute="height" multiplier="120:61" id="FcE-iX-ZjM"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Xkc-nS-1PF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6le-9J-GZu"/>
+                            <constraint firstItem="ZcQ-q9-iU8" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="GSm-Kz-2rG"/>
+                            <constraint firstItem="Xkc-nS-1PF" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="cKm-Px-H0C"/>
+                            <constraint firstItem="ZcQ-q9-iU8" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="240:667" id="gzo-22-GwJ"/>
+                            <constraint firstItem="ZcQ-q9-iU8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mWi-lT-KPw"/>
+                            <constraint firstItem="Xkc-nS-1PF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="x3O-lv-dlR"/>
+                            <constraint firstItem="Xkc-nS-1PF" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="zIu-Ft-bgU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="373.76311844077964"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splashbackground" width="1280" height="1920"/>
+        <image name="splashlogo" width="1178" height="601"/>
+    </resources>
+</document>
